@@ -29,8 +29,6 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         intent.setData(Uri.parse(temp));
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
             return;
         }
         startActivity(intent);

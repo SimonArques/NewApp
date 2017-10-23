@@ -55,4 +55,13 @@
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_editor_absoluteY="16dp" />
 
+    <Button
+        android:id="@+id/goProfile"
+        android:layout_width="321dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="93dp" />
+
 </android.support.constraint.ConstraintLayout>
